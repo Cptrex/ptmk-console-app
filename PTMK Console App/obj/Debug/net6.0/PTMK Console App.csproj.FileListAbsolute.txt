@@ -1,0 +1,15 @@
+E:\VS Repos\PTMK Console App\PTMK Console App\bin\Debug\net6.0\PTMK Console App.exe
+E:\VS Repos\PTMK Console App\PTMK Console App\bin\Debug\net6.0\PTMK Console App.deps.json
+E:\VS Repos\PTMK Console App\PTMK Console App\bin\Debug\net6.0\PTMK Console App.runtimeconfig.json
+E:\VS Repos\PTMK Console App\PTMK Console App\bin\Debug\net6.0\PTMK Console App.dll
+E:\VS Repos\PTMK Console App\PTMK Console App\bin\Debug\net6.0\PTMK Console App.pdb
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.csproj.AssemblyReference.cache
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.AssemblyInfoInputs.cache
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.AssemblyInfo.cs
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.csproj.CoreCompileInputs.cache
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.dll
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\refint\PTMK Console App.dll
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.pdb
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\PTMK Console App.genruntimeconfig.cache
+E:\VS Repos\PTMK Console App\PTMK Console App\obj\Debug\net6.0\ref\PTMK Console App.dll
