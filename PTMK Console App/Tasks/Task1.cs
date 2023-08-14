@@ -11,7 +11,7 @@ public class Task1
         {
             using (PTMKContext context = new PTMKContext())
             {
-                context.Database.ExecuteSqlRaw("CREATE TABLE `clients` (`id` INT NOT NULL AUTO_INCREMENT," +
+                context.Database.ExecuteSqlRaw("CREATE TABLE IF NOT EXISTS `clients` (`id` INT NOT NULL AUTO_INCREMENT," +
                         "`fullname` VARCHAR(255) NOT NULL," +
                         "`date_of_birth` DATETIME NULL," +
                         "`sex` TINYINT NULL," +

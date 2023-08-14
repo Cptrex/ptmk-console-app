@@ -8,17 +8,16 @@ public class Task3
 {
     public static async Task<List<ClientViewModel>> SelectUniqueClientsByFullname()
     {
-        using (PTMKContext context = new PTMKContext())
+        using PTMKContext context = new();
+        List<ClientViewModel> clientViewList = await context.Clients.Select(c => new ClientViewModel
         {
-            List<ClientViewModel> clientViewList = await context.Clients.Select(c => new ClientViewModel {
-                FullName = c.FullName,
-                DateOfBirth = c.DateOfBirth, 
-                Sex = c.Sex,
-                Age = CalculateAgeByDateOfBirth(c.DateOfBirth)
-            }).Distinct().ToListAsync();
+            FullName = c.FullName,
+            DateOfBirth = c.DateOfBirth,
+            Sex = c.Sex,
+            Age = CalculateAgeByDateOfBirth(c.DateOfBirth)
+        }).Distinct().ToListAsync();
 
-            return clientViewList;
-        }
+        return clientViewList;
     }
 
     public static void PrintUniqueClients(List<ClientViewModel> clientViewList)
