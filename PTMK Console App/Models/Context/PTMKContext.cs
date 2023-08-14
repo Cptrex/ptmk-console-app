@@ -1,25 +1,34 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace PTMKConsoleApp.Models.Context
+namespace PTMKConsoleApp.Models.Context;
+
+public class PTMKContext : DbContext
 {
-    public class PTMKContext : DbContext
+    public DbSet<Client> Clients { get; set; } = null!;  
+
+    public PTMKContext()
     {
-        public DbSet<Client> Clients { get; set; } = null!;  
-
-        public PTMKContext()
+        Database.EnsureCreated();
+    }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        using (StreamReader file = new StreamReader("./connection.json"))
         {
-            //Database.EnsureCreated();
+            try
+            {
+                string connectionString = file.ReadToEnd();
+                //string contextConnection = "Server=localhost;Uid=root;Pwd=root;Database=pmk_db;";
+                optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Problem reading file");
+            }
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            string contextConnection = "Server=localhost;Uid=root;Pwd=root;Database=pmk_db;";
-            //string contextConnection = DbConnection.GetStringConnection("./connection.json");
-            optionsBuilder.UseMySql(contextConnection, ServerVersion.AutoDetect(contextConnection));
-        }
+    }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
 
-        }
     }
 }

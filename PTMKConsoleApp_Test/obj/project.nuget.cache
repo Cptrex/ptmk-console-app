@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2awfLPryggaMvBxeOag/PMlAqrdyMGtF7g0S8gJUVBmON26/bTc4COCds2G4839lvi/l+u+osREWE65RD8k3g==",
+  "dgSpecHash": "kS97/lJqNaZGM5Ox+Ow2m25vtPLylFlCx5MtsMzZlqNzYpi0BsmAKvQYEs7TXhjUjlqllpSDoLXivjov8mRetA==",
   "success": true,
   "projectFilePath": "E:\\VS Repos\\PTMK Console App\\PTMKConsoleApp_Test\\PTMKConsoleApp_Test.csproj",
   "expectedPackageFiles": [
@@ -79,7 +79,6 @@
     "C:\\Users\\riddle\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\riddle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

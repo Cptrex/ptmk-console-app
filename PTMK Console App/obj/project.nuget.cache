@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fUPdHB4H3vkSlN/zRrVzCL1We1gxFrt3QPhnOodTrJdYtfQuVWpIjM+S9UFmDgfd1BgMfbPIzujqx+1kl94gsA==",
+  "dgSpecHash": "jXdUzLVYg4K+ZImUIEerR9Nd4UzKF0Hu9DOMc7TEegOK8vHm0zLvmhhOx03y7MyKXpJyUmAWNn6aLljZ+Pimvw==",
   "success": true,
   "projectFilePath": "E:\\VS Repos\\PTMK Console App\\PTMK Console App\\PTMKConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "C:\\Users\\riddle\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
-    "C:\\Users\\riddle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\riddle\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
